@@ -161,7 +161,7 @@ To avoid an ajax request right after page load to get the initial data, when the
 
 It's important to note that routing and history management are distinct but related things. History management concerns dealing with the back and forward buttons, and adding history entries when the user navigates within your page. Routing is responding to changes in the url, generally by rendering a different page.
 
-I use [history.js](https://github.com/browserstate/history.js/) for handling back and forward button clicks, as well as updating the url based on in-app navigation. I'll glady switch to google closure's history library, just as soon as they support non-hash based urls. My app uses urls like "/users/userid", whereas google closure would give me "/users#userid". Such frivolities cost web developers hours of sleep.
+I use [history.js](https://github.com/browserstate/history.js/) for handling back and forward button clicks, as well as updating the url based on in-app navigation. I'll gladly switch to google closure's history library, just as soon as they support non-hash based urls. My app uses urls like "/users/userid", whereas google closure would give me "/users#userid". Such frivolities cost web developers hours of sleep.
 
 When navigation events occur, a series of things happens: 
 
@@ -175,7 +175,7 @@ An improvement I intend to make to this is to give some indication that the next
 <a name="an-example-application"></a>
 #### An Example Application
 
-I intend to post an example application here tonight or tomorrow. I recommend reloading this page every minute or two.
+[birds](https://github.com/tomconnors/birds). While the exact files in this application don't match what was described above, all the concepts are the same, so it shouldn't be too tough to navigate the code base.
 
 <a name="what-the-future-holds"></a>
 #### What the Future Holds
